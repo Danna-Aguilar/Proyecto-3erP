@@ -9,5 +9,12 @@
 import Foundation
 import UIKit
 class CeldaPagosController: UITableViewCell {
-   
+    @IBOutlet weak var lblConcepto: UILabel!
+    
+    @IBOutlet weak var lblFecha: UILabel!
+    
+    
+    @IBOutlet weak var lblimporte: UILabel!
+    
+    
 }

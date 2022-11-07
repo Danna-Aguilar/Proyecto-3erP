@@ -1,12 +1,12 @@
 //
-//  pagos.swift
+//  pago.swift
 //  Proyecto-3erp
 //
 //  Created by Alumno ULSA on 07/11/22.
 //  Copyright © 2022 Sebastian Encinas. All rights reserved.
 //
 
-class pagos  {
+class pago  {
     var concepto: String
     var fecha: String
     var importe: String
