@@ -20,9 +20,10 @@ class AlumnoController: UIViewController{
     override func viewDidLoad() {
             
             
-            imgIcon.layer.cornerRadius = 10
-            imgIcon.image = UIImage(named: Alumno[0].fotito)
-            lblNicj.text = Alumno[0].nick
+        imgIcon.layer.cornerRadius = imgIcon.bounds.size.width / 2.0
+        imgIcon.clipsToBounds = true
+        imgIcon.image = UIImage(named: Alumno[0].fotito)
+        lblNicj.text = Alumno[0].nick
             
 
         

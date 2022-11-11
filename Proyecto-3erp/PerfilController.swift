@@ -35,6 +35,8 @@ class PerfilController: UIViewController {
             lblNombre.text = Alumno?.nombre
             lblFecha.text = Alumno?.fechaN
             imgPerfil.image = UIImage(named: Alumno!.fotito)
+            imgPerfil.layer.cornerRadius = imgPerfil.bounds.size.width / 2.0
+            imgPerfil.clipsToBounds = true
                             
         }
     }

@@ -36,6 +36,8 @@ class CafeteriaController: UIViewController, UITableViewDelegate,UITableViewData
             celda?.lblprecio.text = Menu[indexPath.row].precio
             celda?.lbldescripcion.text = Menu[indexPath.row].descripcion
             celda?.imgcomida.image = UIImage(named:Menu[indexPath.row].foto)
+        celda?.imgcomida.layer.cornerRadius = 30
+        celda?.imgcomida.clipsToBounds = true
         return celda!
         
     }
