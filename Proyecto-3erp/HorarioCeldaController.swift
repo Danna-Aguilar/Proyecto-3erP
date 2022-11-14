@@ -12,10 +12,10 @@ class HorarioCeldaController: UITableViewCell {
     
     @IBOutlet weak var lblMateria: UILabel!
     
-    @IBOutlet weak var imgfotop: UIImageView!
-    
     @IBOutlet weak var lblMaestro: UILabel!
     
+    @IBOutlet weak var imgfotop: UIImageView!
     
     @IBOutlet weak var lblHora: UILabel!
+    
 }
