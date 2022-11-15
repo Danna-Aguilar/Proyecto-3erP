@@ -11,16 +11,21 @@ import UIKit
 class ClaseController: UIViewController {
     
     var Horarios : horario?
+    var Clase: horario?
     
     var callBackClasecita : ((horario) -> Void)?
+    var callBackEvaluacion : ((horario) -> Void)?
+
     
+    @IBOutlet weak var txtCalificacion: UITextField!
+    @IBOutlet weak var btnEnviar: UIButton!
+    @IBOutlet weak var txtComentario: UITextField!
+    
+    @IBOutlet weak var btnAsistencia: UIButton!
     
     @IBOutlet weak var lblMateria: UILabel!
-    
     @IBOutlet weak var lblMaestro: UILabel!
-    
     @IBOutlet weak var lblHora: UILabel!
-    
     @IBOutlet weak var imgfotop: UIImageView!
     
     override func viewDidLoad() {
@@ -30,16 +35,67 @@ class ClaseController: UIViewController {
             lblMaestro.text = Horarios?.maestro
             lblMateria.text = Horarios?.materia
             lblHora.text = Horarios?.hora
-            imgfotop.image = UIImage(named: "\(Horarios!.fotop)2")
+            imgfotop.image = UIImage(named: "\(Horarios!.fotop)")
+            
+        }
+        
+        if (Clase?.asistencia == true)
+                {
+                    btnAsistencia.tintColor = UIColor(red: 191/255, green: 191/255, blue: 191/255, alpha: 1)
+                    btnAsistencia.setTitle("Tomada", for: .normal)
+                    btnAsistencia.isEnabled = false
+                    btnEnviar.tintColor = UIColor(red: 191/255, green: 191/255, blue: 191/255, alpha: 1)
+                    btnEnviar.isEnabled = false
+                    btnEnviar.setTitle("Enviada", for: .normal)
+                    txtCalificacion.isUserInteractionEnabled = false
+                    txtComentario.isUserInteractionEnabled = false
+                }
+        
+        if (Clase?.evaluacion == true)
+        {
+            
+            
+            
             
             
         }
-    }
-    
-    func doTapAsistencia(_ sender: Any) {
-       
         
     }
+    
+    @IBAction func doTapAsistencia(_ sender: Any) {
+        if callBackClasecita != nil {
+            Clase?.asistencia = true
+            callBackClasecita!(Clase!)
+            btnAsistencia.tintColor = UIColor(red: 191/255, green: 191/255, blue: 191/255, alpha: 1)
+            btnAsistencia.isEnabled = false
+            btnAsistencia.setTitle("Tomada", for: .normal)
+    
+
+
+        }
+        
+    }
+    
+    @IBAction func doTapEnviar(_ sender: Any) {
+        Clase?.califMaestro = txtCalificacion.text!
+        Clase?.comentMaestro = txtComentario.text!
+        callBackClasecita!(Clase!)
+        self.navigationController?.popViewController(animated: true)
+        btnEnviar.tintColor = UIColor(red: 191/255, green: 191/255, blue: 191/255, alpha: 1)
+        btnEnviar.isEnabled = false
+        btnEnviar.setTitle("Enviada", for: .normal)
+        txtCalificacion.isUserInteractionEnabled = false
+        txtComentario.isUserInteractionEnabled = false
+        
+        
+        //txtCalificacion.delegate = self
+        
+
+    }
+    
+    
+    
+    
 }
     
     

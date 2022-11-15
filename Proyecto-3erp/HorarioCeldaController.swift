@@ -18,4 +18,5 @@ class HorarioCeldaController: UITableViewCell {
     
     @IBOutlet weak var lblHora: UILabel!
     
+    @IBOutlet weak var imgAsistencia: UIImageView!
 }
