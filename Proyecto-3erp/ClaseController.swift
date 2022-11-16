@@ -8,7 +8,7 @@
 
 import Foundation
 import UIKit
-class ClaseController: UIViewController {
+class ClaseController: UIViewController,UITextFieldDelegate {
     
     var Horarios : horario?
     var Clase: horario?
@@ -17,12 +17,14 @@ class ClaseController: UIViewController {
     var callBackEvaluacion : ((horario) -> Void)?
 
     
+    @IBOutlet weak var lblAlerta: UILabel!
     @IBOutlet weak var txtCalificacion: UITextField!
     @IBOutlet weak var btnEnviar: UIButton!
     @IBOutlet weak var txtComentario: UITextField!
     
     @IBOutlet weak var btnAsistencia: UIButton!
     
+    @IBOutlet weak var lblFaltas: UILabel!
     @IBOutlet weak var lblMateria: UILabel!
     @IBOutlet weak var lblMaestro: UILabel!
     @IBOutlet weak var lblHora: UILabel!
@@ -35,9 +37,19 @@ class ClaseController: UIViewController {
             lblMaestro.text = Horarios?.maestro
             lblMateria.text = Horarios?.materia
             lblHora.text = Horarios?.hora
+            lblFaltas.text = Horarios?.faltitas
             imgfotop.image = UIImage(named: "\(Horarios!.fotop)")
+            txtCalificacion.text = Horarios?.califMaestro
+            txtComentario.text = Horarios?.comentMaestro
             
         }
+        
+        
+        txtCalificacion.delegate = self
+        
+        if (Clase?.califMaestro == "") {
+            lblAlerta.text = "Realizar evaluación docente"
+               }
         
         if (Clase?.asistencia == true)
                 {
@@ -51,16 +63,26 @@ class ClaseController: UIViewController {
                     txtComentario.isUserInteractionEnabled = false
                 }
         
+        
+        
         if (Clase?.evaluacion == true)
+            
         {
-            
-            
-            
-            
+           
             
         }
         
     }
+    //bloquear text field numeros
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        let allowedCharacters = "+12345"
+        let allowedCharcterSet = CharacterSet(charactersIn: allowedCharacters)
+        let typedCharcterSet = CharacterSet(charactersIn: string)
+        return allowedCharcterSet.isSuperset(of: typedCharcterSet)
+        
+    }
+    
+    
     
     @IBAction func doTapAsistencia(_ sender: Any) {
         if callBackClasecita != nil {
@@ -76,6 +98,7 @@ class ClaseController: UIViewController {
         
     }
     
+    
     @IBAction func doTapEnviar(_ sender: Any) {
         Clase?.califMaestro = txtCalificacion.text!
         Clase?.comentMaestro = txtComentario.text!
@@ -87,8 +110,8 @@ class ClaseController: UIViewController {
         txtCalificacion.isUserInteractionEnabled = false
         txtComentario.isUserInteractionEnabled = false
         
+
         
-        //txtCalificacion.delegate = self
         
 
     }

@@ -15,8 +15,9 @@ class horario  {
     var califMaestro : String
     var comentMaestro : String
     var evaluacion: Bool
+    var faltitas: String
     
-    init (materia:String, maestro:String, hora:String, fotop:String, asistencia:Bool,califMaestro:String,comentMaestro:String, evaluacion:Bool){
+    init (materia:String, maestro:String, hora:String, fotop:String, asistencia:Bool,califMaestro:String,comentMaestro:String, evaluacion:Bool, faltitas:String){
         self.materia = materia
         self.maestro = maestro
         self.hora = hora
@@ -25,6 +26,7 @@ class horario  {
         self.califMaestro = califMaestro
         self.comentMaestro = comentMaestro
         self.evaluacion = evaluacion
+        self.faltitas = faltitas
 
       
   }

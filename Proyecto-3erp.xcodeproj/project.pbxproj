@@ -16,6 +16,34 @@
 		3D1C0FB72906E2E400EA0330 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D1C0FB52906E2E400EA0330 /* LaunchScreen.storyboard */; };
 		3D1C0FBF2906E7FB00EA0330 /* contactos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1C0FBE2906E7FB00EA0330 /* contactos.swift */; };
 		3D1C0FC12906E8EA00EA0330 /* CeldaContactoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1C0FC02906E8EA00EA0330 /* CeldaContactoController.swift */; };
+		FB3916F1292536D4005C9607 /* Indivisa Display Serif Regular Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB3916D5292536D3005C9607 /* Indivisa Display Serif Regular Italic.ttf */; };
+		FB3916F2292536D4005C9607 /* Indivisa Text Sans-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB3916D6292536D3005C9607 /* Indivisa Text Sans-Black.ttf */; };
+		FB3916F3292536D4005C9607 /* Indivisa Display Sans-Heavy Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB3916D7292536D3005C9607 /* Indivisa Display Sans-Heavy Italic.ttf */; };
+		FB3916F4292536D4005C9607 /* Indivisa Text Serif Light Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB3916D8292536D3005C9607 /* Indivisa Text Serif Light Italic.ttf */; };
+		FB3916F5292536D4005C9607 /* Indivisa Display Serif Heavy Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB3916D9292536D3005C9607 /* Indivisa Display Serif Heavy Italic.ttf */; };
+		FB3916F6292536D4005C9607 /* Indivisa Display Serif Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB3916DA292536D3005C9607 /* Indivisa Display Serif Heavy.ttf */; };
+		FB3916F7292536D4005C9607 /* Indivisa Display Serif Thin Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB3916DB292536D3005C9607 /* Indivisa Display Serif Thin Italic.ttf */; };
+		FB3916F8292536D4005C9607 /* Indivisa Display Sans-Thin Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB3916DC292536D3005C9607 /* Indivisa Display Sans-Thin Italic.ttf */; };
+		FB3916F9292536D4005C9607 /* Indivisa Text Sans-Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB3916DD292536D3005C9607 /* Indivisa Text Sans-Bold Italic.ttf */; };
+		FB3916FA292536D4005C9607 /* Indivisa Text Sans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB3916DE292536D3005C9607 /* Indivisa Text Sans-Regular.ttf */; };
+		FB3916FB292536D4005C9607 /* Indivisa Text Serif Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB3916DF292536D3005C9607 /* Indivisa Text Serif Bold Italic.ttf */; };
+		FB3916FC292536D4005C9607 /* Indivisa Text Sans-Black Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB3916E0292536D4005C9607 /* Indivisa Text Sans-Black Italic.ttf */; };
+		FB3916FD292536D4005C9607 /* Indivisa Text Serif Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB3916E1292536D4005C9607 /* Indivisa Text Serif Black.ttf */; };
+		FB3916FE292536D4005C9607 /* Indivisa Text Serif Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB3916E2292536D4005C9607 /* Indivisa Text Serif Regular.ttf */; };
+		FB3916FF292536D4005C9607 /* Indivisa Display Serif Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB3916E3292536D4005C9607 /* Indivisa Display Serif Thin.ttf */; };
+		FB391700292536D4005C9607 /* Indivisa Display Sans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB3916E4292536D4005C9607 /* Indivisa Display Sans-Regular.ttf */; };
+		FB391701292536D4005C9607 /* Indivisa Display Sans-Regular Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB3916E5292536D4005C9607 /* Indivisa Display Sans-Regular Italic.ttf */; };
+		FB391702292536D4005C9607 /* Indivisa Text Sans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB3916E6292536D4005C9607 /* Indivisa Text Sans-Light.ttf */; };
+		FB391703292536D4005C9607 /* Indivisa Text Sans-Regular Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB3916E7292536D4005C9607 /* Indivisa Text Sans-Regular Italic.ttf */; };
+		FB391704292536D4005C9607 /* Indivisa Display Sans-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB3916E8292536D4005C9607 /* Indivisa Display Sans-Thin.ttf */; };
+		FB391705292536D4005C9607 /* Indivisa Text Serif Black Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB3916E9292536D4005C9607 /* Indivisa Text Serif Black Italic.ttf */; };
+		FB391706292536D4005C9607 /* Indivisa Text Sans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB3916EA292536D4005C9607 /* Indivisa Text Sans-Bold.ttf */; };
+		FB391707292536D4005C9607 /* Indivisa Text Serif Regular Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB3916EB292536D4005C9607 /* Indivisa Text Serif Regular Italic.ttf */; };
+		FB391708292536D4005C9607 /* Indivisa Display Serif Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB3916EC292536D4005C9607 /* Indivisa Display Serif Regular.ttf */; };
+		FB391709292536D4005C9607 /* Indivisa Text Serif Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB3916ED292536D4005C9607 /* Indivisa Text Serif Bold.ttf */; };
+		FB39170A292536D4005C9607 /* Indivisa Display Sans-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB3916EE292536D4005C9607 /* Indivisa Display Sans-Heavy.ttf */; };
+		FB39170B292536D4005C9607 /* Indivisa Text Serif Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB3916EF292536D4005C9607 /* Indivisa Text Serif Light.ttf */; };
+		FB39170C292536D4005C9607 /* Indivisa Text Sans-Light Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB3916F0292536D4005C9607 /* Indivisa Text Sans-Light Italic.ttf */; };
 		FB73FD442919570800D5EE8F /* PerfilController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB73FD432919570800D5EE8F /* PerfilController.swift */; };
 		FB73FD4629195E4200D5EE8F /* PagosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB73FD4529195E4200D5EE8F /* PagosController.swift */; };
 		FB73FD4829195E4F00D5EE8F /* pagos.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB73FD4729195E4F00D5EE8F /* pagos.swift */; };
@@ -45,6 +73,34 @@
 		3D1C0FB82906E2E400EA0330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D1C0FBE2906E7FB00EA0330 /* contactos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contactos.swift; sourceTree = "<group>"; };
 		3D1C0FC02906E8EA00EA0330 /* CeldaContactoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaContactoController.swift; sourceTree = "<group>"; };
+		FB3916D5292536D3005C9607 /* Indivisa Display Serif Regular Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Indivisa Display Serif Regular Italic.ttf"; sourceTree = "<group>"; };
+		FB3916D6292536D3005C9607 /* Indivisa Text Sans-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Indivisa Text Sans-Black.ttf"; sourceTree = "<group>"; };
+		FB3916D7292536D3005C9607 /* Indivisa Display Sans-Heavy Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Indivisa Display Sans-Heavy Italic.ttf"; sourceTree = "<group>"; };
+		FB3916D8292536D3005C9607 /* Indivisa Text Serif Light Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Indivisa Text Serif Light Italic.ttf"; sourceTree = "<group>"; };
+		FB3916D9292536D3005C9607 /* Indivisa Display Serif Heavy Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Indivisa Display Serif Heavy Italic.ttf"; sourceTree = "<group>"; };
+		FB3916DA292536D3005C9607 /* Indivisa Display Serif Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Indivisa Display Serif Heavy.ttf"; sourceTree = "<group>"; };
+		FB3916DB292536D3005C9607 /* Indivisa Display Serif Thin Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Indivisa Display Serif Thin Italic.ttf"; sourceTree = "<group>"; };
+		FB3916DC292536D3005C9607 /* Indivisa Display Sans-Thin Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Indivisa Display Sans-Thin Italic.ttf"; sourceTree = "<group>"; };
+		FB3916DD292536D3005C9607 /* Indivisa Text Sans-Bold Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Indivisa Text Sans-Bold Italic.ttf"; sourceTree = "<group>"; };
+		FB3916DE292536D3005C9607 /* Indivisa Text Sans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Indivisa Text Sans-Regular.ttf"; sourceTree = "<group>"; };
+		FB3916DF292536D3005C9607 /* Indivisa Text Serif Bold Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Indivisa Text Serif Bold Italic.ttf"; sourceTree = "<group>"; };
+		FB3916E0292536D4005C9607 /* Indivisa Text Sans-Black Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Indivisa Text Sans-Black Italic.ttf"; sourceTree = "<group>"; };
+		FB3916E1292536D4005C9607 /* Indivisa Text Serif Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Indivisa Text Serif Black.ttf"; sourceTree = "<group>"; };
+		FB3916E2292536D4005C9607 /* Indivisa Text Serif Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Indivisa Text Serif Regular.ttf"; sourceTree = "<group>"; };
+		FB3916E3292536D4005C9607 /* Indivisa Display Serif Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Indivisa Display Serif Thin.ttf"; sourceTree = "<group>"; };
+		FB3916E4292536D4005C9607 /* Indivisa Display Sans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Indivisa Display Sans-Regular.ttf"; sourceTree = "<group>"; };
+		FB3916E5292536D4005C9607 /* Indivisa Display Sans-Regular Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Indivisa Display Sans-Regular Italic.ttf"; sourceTree = "<group>"; };
+		FB3916E6292536D4005C9607 /* Indivisa Text Sans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Indivisa Text Sans-Light.ttf"; sourceTree = "<group>"; };
+		FB3916E7292536D4005C9607 /* Indivisa Text Sans-Regular Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Indivisa Text Sans-Regular Italic.ttf"; sourceTree = "<group>"; };
+		FB3916E8292536D4005C9607 /* Indivisa Display Sans-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Indivisa Display Sans-Thin.ttf"; sourceTree = "<group>"; };
+		FB3916E9292536D4005C9607 /* Indivisa Text Serif Black Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Indivisa Text Serif Black Italic.ttf"; sourceTree = "<group>"; };
+		FB3916EA292536D4005C9607 /* Indivisa Text Sans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Indivisa Text Sans-Bold.ttf"; sourceTree = "<group>"; };
+		FB3916EB292536D4005C9607 /* Indivisa Text Serif Regular Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Indivisa Text Serif Regular Italic.ttf"; sourceTree = "<group>"; };
+		FB3916EC292536D4005C9607 /* Indivisa Display Serif Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Indivisa Display Serif Regular.ttf"; sourceTree = "<group>"; };
+		FB3916ED292536D4005C9607 /* Indivisa Text Serif Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Indivisa Text Serif Bold.ttf"; sourceTree = "<group>"; };
+		FB3916EE292536D4005C9607 /* Indivisa Display Sans-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Indivisa Display Sans-Heavy.ttf"; sourceTree = "<group>"; };
+		FB3916EF292536D4005C9607 /* Indivisa Text Serif Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Indivisa Text Serif Light.ttf"; sourceTree = "<group>"; };
+		FB3916F0292536D4005C9607 /* Indivisa Text Sans-Light Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Indivisa Text Sans-Light Italic.ttf"; sourceTree = "<group>"; };
 		FB73FD432919570800D5EE8F /* PerfilController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilController.swift; sourceTree = "<group>"; };
 		FB73FD4529195E4200D5EE8F /* PagosController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagosController.swift; sourceTree = "<group>"; };
 		FB73FD4729195E4F00D5EE8F /* pagos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pagos.swift; sourceTree = "<group>"; };
@@ -92,6 +148,7 @@
 		3D1C0FAB2906E2E000EA0330 /* Proyecto-3erp */ = {
 			isa = PBXGroup;
 			children = (
+				FB3916D42925369E005C9607 /* Fuente */,
 				FB80E31B291E98CF00965690 /* HorarioCeldaController.swift */,
 				FB80E319291E98C100965690 /* HorarioController.swift */,
 				FB80E317291E98AF00965690 /* horario.swift */,
@@ -119,6 +176,41 @@
 				FB73FD4529195E4200D5EE8F /* PagosController.swift */,
 			);
 			path = "Proyecto-3erp";
+			sourceTree = "<group>";
+		};
+		FB3916D42925369E005C9607 /* Fuente */ = {
+			isa = PBXGroup;
+			children = (
+				FB3916D7292536D3005C9607 /* Indivisa Display Sans-Heavy Italic.ttf */,
+				FB3916EE292536D4005C9607 /* Indivisa Display Sans-Heavy.ttf */,
+				FB3916E5292536D4005C9607 /* Indivisa Display Sans-Regular Italic.ttf */,
+				FB3916E4292536D4005C9607 /* Indivisa Display Sans-Regular.ttf */,
+				FB3916DC292536D3005C9607 /* Indivisa Display Sans-Thin Italic.ttf */,
+				FB3916E8292536D4005C9607 /* Indivisa Display Sans-Thin.ttf */,
+				FB3916D9292536D3005C9607 /* Indivisa Display Serif Heavy Italic.ttf */,
+				FB3916DA292536D3005C9607 /* Indivisa Display Serif Heavy.ttf */,
+				FB3916D5292536D3005C9607 /* Indivisa Display Serif Regular Italic.ttf */,
+				FB3916EC292536D4005C9607 /* Indivisa Display Serif Regular.ttf */,
+				FB3916DB292536D3005C9607 /* Indivisa Display Serif Thin Italic.ttf */,
+				FB3916E3292536D4005C9607 /* Indivisa Display Serif Thin.ttf */,
+				FB3916E0292536D4005C9607 /* Indivisa Text Sans-Black Italic.ttf */,
+				FB3916D6292536D3005C9607 /* Indivisa Text Sans-Black.ttf */,
+				FB3916DD292536D3005C9607 /* Indivisa Text Sans-Bold Italic.ttf */,
+				FB3916EA292536D4005C9607 /* Indivisa Text Sans-Bold.ttf */,
+				FB3916F0292536D4005C9607 /* Indivisa Text Sans-Light Italic.ttf */,
+				FB3916E6292536D4005C9607 /* Indivisa Text Sans-Light.ttf */,
+				FB3916E7292536D4005C9607 /* Indivisa Text Sans-Regular Italic.ttf */,
+				FB3916DE292536D3005C9607 /* Indivisa Text Sans-Regular.ttf */,
+				FB3916E9292536D4005C9607 /* Indivisa Text Serif Black Italic.ttf */,
+				FB3916E1292536D4005C9607 /* Indivisa Text Serif Black.ttf */,
+				FB3916DF292536D3005C9607 /* Indivisa Text Serif Bold Italic.ttf */,
+				FB3916ED292536D4005C9607 /* Indivisa Text Serif Bold.ttf */,
+				FB3916D8292536D3005C9607 /* Indivisa Text Serif Light Italic.ttf */,
+				FB3916EF292536D4005C9607 /* Indivisa Text Serif Light.ttf */,
+				FB3916EB292536D4005C9607 /* Indivisa Text Serif Regular Italic.ttf */,
+				FB3916E2292536D4005C9607 /* Indivisa Text Serif Regular.ttf */,
+			);
+			name = Fuente;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,9 +272,37 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB391702292536D4005C9607 /* Indivisa Text Sans-Light.ttf in Resources */,
+				FB3916FF292536D4005C9607 /* Indivisa Display Serif Thin.ttf in Resources */,
 				3D1C0FB72906E2E400EA0330 /* LaunchScreen.storyboard in Resources */,
+				FB3916F2292536D4005C9607 /* Indivisa Text Sans-Black.ttf in Resources */,
+				FB3916F3292536D4005C9607 /* Indivisa Display Sans-Heavy Italic.ttf in Resources */,
+				FB3916FA292536D4005C9607 /* Indivisa Text Sans-Regular.ttf in Resources */,
+				FB39170A292536D4005C9607 /* Indivisa Display Sans-Heavy.ttf in Resources */,
+				FB3916F9292536D4005C9607 /* Indivisa Text Sans-Bold Italic.ttf in Resources */,
+				FB3916F7292536D4005C9607 /* Indivisa Display Serif Thin Italic.ttf in Resources */,
+				FB391701292536D4005C9607 /* Indivisa Display Sans-Regular Italic.ttf in Resources */,
+				FB391703292536D4005C9607 /* Indivisa Text Sans-Regular Italic.ttf in Resources */,
+				FB391704292536D4005C9607 /* Indivisa Display Sans-Thin.ttf in Resources */,
+				FB391708292536D4005C9607 /* Indivisa Display Serif Regular.ttf in Resources */,
+				FB3916FC292536D4005C9607 /* Indivisa Text Sans-Black Italic.ttf in Resources */,
 				3D1C0FB42906E2E400EA0330 /* Assets.xcassets in Resources */,
+				FB39170C292536D4005C9607 /* Indivisa Text Sans-Light Italic.ttf in Resources */,
+				FB391709292536D4005C9607 /* Indivisa Text Serif Bold.ttf in Resources */,
+				FB3916F5292536D4005C9607 /* Indivisa Display Serif Heavy Italic.ttf in Resources */,
 				3D1C0FB22906E2E000EA0330 /* Main.storyboard in Resources */,
+				FB391707292536D4005C9607 /* Indivisa Text Serif Regular Italic.ttf in Resources */,
+				FB3916F1292536D4005C9607 /* Indivisa Display Serif Regular Italic.ttf in Resources */,
+				FB391705292536D4005C9607 /* Indivisa Text Serif Black Italic.ttf in Resources */,
+				FB3916FD292536D4005C9607 /* Indivisa Text Serif Black.ttf in Resources */,
+				FB3916F8292536D4005C9607 /* Indivisa Display Sans-Thin Italic.ttf in Resources */,
+				FB3916F6292536D4005C9607 /* Indivisa Display Serif Heavy.ttf in Resources */,
+				FB39170B292536D4005C9607 /* Indivisa Text Serif Light.ttf in Resources */,
+				FB3916F4292536D4005C9607 /* Indivisa Text Serif Light Italic.ttf in Resources */,
+				FB3916FB292536D4005C9607 /* Indivisa Text Serif Bold Italic.ttf in Resources */,
+				FB391706292536D4005C9607 /* Indivisa Text Sans-Bold.ttf in Resources */,
+				FB391700292536D4005C9607 /* Indivisa Display Sans-Regular.ttf in Resources */,
+				FB3916FE292536D4005C9607 /* Indivisa Text Serif Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

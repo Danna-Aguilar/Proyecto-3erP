@@ -22,11 +22,11 @@ class AlumnoController: UIViewController,UITableViewDelegate,UITableViewDataSour
     
     override func viewDidLoad() {
         
-        Horario.append(horario(materia: "Modelado 3D", maestro: "Azalia Hernandez", hora: "7:00 am", fotop: "modelado",asistencia: false, califMaestro: "",comentMaestro: "",evaluacion: false))
-        Horario.append(horario(materia: "Programacion", maestro: "Armando Zamora", hora: "9:00 am", fotop: "progra", asistencia: false,califMaestro: "", comentMaestro: "",evaluacion: false))
-        Horario.append(horario(materia: "Dispositivos Moviles", maestro: "Cesar Amaya", hora: "11:00 am", fotop: "dispositivos", asistencia: false, califMaestro: "", comentMaestro: "",evaluacion: false))
-        Horario.append(horario(materia: "Mexico global", maestro: "Marisela Delgadillo", hora: "1:00 pm", fotop: "mexico",asistencia: false,califMaestro: "",comentMaestro: "",evaluacion: false))
-        Horario.append(horario(materia: "Redes computacionales", maestro: "Alejandra Esquer", hora: "3:00 pm", fotop: "redes",asistencia: false, califMaestro: "", comentMaestro: "",evaluacion: false))
+        Horario.append(horario(materia: "Modelado 3D", maestro: "Azalia Hernandez", hora: "7:00 am", fotop: "modelado",asistencia: false, califMaestro: "",comentMaestro: "",evaluacion: false, faltitas: "3"))
+        Horario.append(horario(materia: "Programacion", maestro: "Armando Zamora", hora: "9:00 am", fotop: "progra", asistencia: false,califMaestro: "", comentMaestro: "",evaluacion: false, faltitas: "1"))
+        Horario.append(horario(materia: "Dispositivos Moviles", maestro: "Cesar Amaya", hora: "11:00 am", fotop: "dispositivos", asistencia: false, califMaestro: "", comentMaestro: "",evaluacion: false, faltitas: "2"))
+        Horario.append(horario(materia: "Mexico global", maestro: "Marisela Delgadillo", hora: "1:00 pm", fotop: "mexico",asistencia: false,califMaestro: "",comentMaestro: "",evaluacion: false, faltitas: "0"))
+        Horario.append(horario(materia: "Redes computacionales", maestro: "Alejandra Esquer", hora: "3:00 pm", fotop: "redes",asistencia: false, califMaestro: "", comentMaestro: "",evaluacion: false, faltitas: "2"))
         
         
         imgIcon.layer.cornerRadius = imgIcon.bounds.size.width / 2.0
@@ -34,7 +34,7 @@ class AlumnoController: UIViewController,UITableViewDelegate,UITableViewDataSour
         imgIcon.image = UIImage(named: Alumno[0].fotito)
         lblNicj.text = Alumno[0].nick
         
-        
+
         
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
