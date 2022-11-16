@@ -21,6 +21,11 @@ class CafeteriaController: UIViewController, UITableViewDelegate,UITableViewData
         Menu.append(menu(comida: "Ensalada", precio: "$28", descripcion: "Pollo, lechuga, parmesano", foto: "ensalada"))
         Menu.append(menu(comida: "Tacos", precio: "$10", descripcion: "tortilla, frijol o carne", foto: "tacos"))
         Menu.append(menu(comida: "Quesadillas", precio: "$25", descripcion: "tortilla con queso", foto: "quesadillas"))
+        Menu.append(menu(comida: "Nachos", precio: "$25", descripcion: "tortilla con queso", foto: "quesadillas"))
+        Menu.append(menu(comida: "Fajitas de pollo", precio: "$25", descripcion: "tortilla con queso", foto: "quesadillas"))
+        Menu.append(menu(comida: "Waffles", precio: "$25", descripcion: "tortilla con queso", foto: "quesadillas"))
+        Menu.append(menu(comida: "Nuggets de pollo", precio: "$25", descripcion: "tortilla con queso", foto: "quesadillas"))
+
 
        }
     
