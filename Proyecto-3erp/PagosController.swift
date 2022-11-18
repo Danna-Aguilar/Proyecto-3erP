@@ -22,9 +22,10 @@ class PagosController: UIViewController, UITableViewDelegate, UITableViewDataSou
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        Pago.append(pago(concepto: "Mensualidad 5", fecha:"01 Nov 2022", importe: "6,124"))
+        Pago.append(pago(concepto: "Mensualidad 5", fecha:"01 Nov 2022", importe: "$6,124"))
         Pago.append(pago(concepto: "Mensualidad 6", fecha:"01 Dic 2022", importe: "5,644"))
         Pago.append(pago(concepto: "Mensualida 7", fecha:"01 En 2023", importe: "5,054"))
+
 
         
                     

@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+
 class ClaseController: UIViewController,UITextFieldDelegate {
     
     var Horarios : horario?
@@ -74,13 +75,19 @@ class ClaseController: UIViewController,UITextFieldDelegate {
         
     }
     //bloquear text field numeros
+
+        
+                
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         let allowedCharacters = "+12345"
         let allowedCharcterSet = CharacterSet(charactersIn: allowedCharacters)
         let typedCharcterSet = CharacterSet(charactersIn: string)
+        
         return allowedCharcterSet.isSuperset(of: typedCharcterSet)
         
+        
     }
+   
     
     
     
